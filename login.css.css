@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(13, 243, 166);
+    text-align: justify;
+    margin-top: 40;
+    font-family: 'Times New Roman', Times, serif;
+    background-position: 50%;
+    background-size: 30%;
+    text-align: center;
+    
+}
+.login-container{
+    color: rgb(150, 11, 11);
+}
+.register-container{
+    color: rgb(7, 7, 7);
+}
+.input-box{
+ background-color: rgb(9, 240, 209);
+ color: darkred;
+}
+.placeholder{
+    border-style: none;
+    color: rgb(233, 21, 21);
+}
+#home #blog #services #about #medication{
+    display: none;
+    
+}
+.form-container {
+    padding: 5px;
+    background-color: #880cee;
+    border-radius: 2px;
+
+    margin-inline-start: 15%;
+}
+
+.input-field {
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 30%;
+    border: 1px solid rgb(46, 230, 9);
+    border-radius: 1px;
+}
+
+.button {
+    padding: 5px 5px;
+    background-color: #0004ff;
+    color: rgb(250, 12, 3);
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+#readmore {
+    display: inline-block;
+        padding: 1rem 3.8rem;
+        background: rgb(4, 187, 248);
+     border-radius: 3rem;
+        box-shadow: 0 0 1rem rgb(75, 16, 238);
+        font-size: 1.6rem;
+        letter-spacing: 3rem;
+        color: rgb(73, 31, 92);
+        font-weight: 600;
+        transition: .5s;
+        margin-top: 30px;
+        text-decoration: none;
+    }
+
+    #readles{
+        display: none;
+        padding: 1rem 3.8rem;
+        background: rgb(4, 187, 248);
+     border-radius: 3rem;
+        box-shadow: 0 0 1rem rgb(75, 16, 238);
+        font-size: 1.6rem;
+        letter-spacing: 3rem;
+        color: rgb(73, 31, 92);
+        font-weight: 600;
+        transition: .5s;
+        margin-top: 30px;
+        text-decoration: none;
+    }
+     .image{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 10px;
+    }
+    .image jpg {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+   
+
+.logo{
+    font-size: 50px;
+    text-decoration: none;
+}
+hidden {
+    display: none;
+}
+.images-container{
+    
+    width: 1000px;
+    height: 1000px;
+    margin: 10px;
+    object-fit:fill;
+
+}
+.services{
+    text-align: justify;
+}
+.medication{
+    text-align: justify;
+}
